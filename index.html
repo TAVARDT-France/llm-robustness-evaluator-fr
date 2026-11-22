@@ -2,16 +2,16 @@
 
 <html lang="fr-FR">
 <head>
-<!-- Preconnect to Google Tag Manager for Maximum Performance -->
+
 <link href="https://www.googletagmanager.com" rel="preconnect"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
-<!-- Google Tag Manager -->
+
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MZTKGRHF');</script>
-<!-- End Google Tag Manager -->
+
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Évaluateur de Robustesse LLM &amp; Testeur de Garde-fous | TAVARDT France</title>
@@ -46,8 +46,7 @@
 <meta content="Évaluateur de Robustesse LLM &amp; Testeur de Garde-fous | TAVARDT France" name="twitter:title"/>
 <meta content="Outil interactif et CLI défensif pour les développeurs évaluant la robustesse des garde-fous LLM contre les vecteurs d'injection, les fuites de prompt et les attaques structurelles. Score de Résilience 0-100 + blueprint défensif." name="twitter:description"/>
 <meta content="https://tavardt-france.github.io/llm-robustness-evaluator-fr/og-image.jpg" name="twitter:image"/>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -71,8 +70,36 @@
         "logo": {
           "@type": "ImageObject",
           "url": "https://tavardt-france.github.io/llm-robustness-evaluator-fr/favicon.ico"
-        }
-      }
+        },
+        "sameAs": [
+          "https://ag.tavardt.com/br/",
+          "https://ag.tavardt.com/pt/",
+          "https://ag.tavardt.com/",
+          "https://ag.tavardt.com/uk/",
+          "https://ag.tavardt.com/ca/",
+          "https://ag.tavardt.com/au/",
+          "https://ag.tavardt.com/nz/",
+          "https://ag.tavardt.com/es/",
+          "https://ag.tavardt.com/mx/",
+          "https://ag.tavardt.com/fr/",
+          "https://ag.tavardt.com/it/",
+          "https://tools.tavardt.com/",
+          "https://github.com/TAVARDT-France"
+        ]
+      },
+      "sameAs": [
+        "https://tavardt-brasil.github.io/llm-robustness-evaluator-br/",
+        "https://tavardt-portugal.github.io/llm-robustness-evaluator-pt/",
+        "https://tavardt-usa.github.io/llm-robustness-evaluator-us/",
+        "https://tavardt-uk.github.io/llm-robustness-evaluator-uk/",
+        "https://tavardt-canada.github.io/llm-robustness-evaluator-ca/",
+        "https://tavardt-australia.github.io/llm-robustness-evaluator-au/",
+        "https://tavardt-new-zealand.github.io/llm-robustness-evaluator-nz/",
+        "https://tavardt-espana.github.io/llm-robustness-evaluator-es/",
+        "https://tavardt-mexico.github.io/llm-robustness-evaluator-mx/",
+        "https://tavardt-france.github.io/llm-robustness-evaluator-fr/",
+        "https://tavardt-italia.github.io/llm-robustness-evaluator-it/"
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -87,7 +114,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Plateforme d'Outils",
+          "name": "Outils",
           "item": "https://tools.tavardt.com/fr/"
         },
         {
@@ -145,8 +172,7 @@
       ]
     }
   ]
-}
-  </script>
+}</script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -799,12 +825,22 @@ header.tavardt-header, header {
 .tavardt-brand-dot {
   color: #1e00ff !important;
 }
-.tavardt-footer, .tavardt-footer-inner, .tavardt-footer-col, .tavardt-footer-bottom, footer, footer div {
+/* TAVARDT Footer Alignment: Content Left-Aligned, ONLY Copyright Centered */
+.tavardt-footer,
+.tavardt-footer-inner,
+.tavardt-footer-col,
+.tavardt-footer-mission,
+.tavardt-footer-heading,
+.tavardt-footer-links,
+.tavardt-footer-compliance-text,
+footer {
   text-align: left !important;
 }
-.tavardt-footer-bottom p {
-  text-align: left !important;
-  margin: 0 !important;
+.tavardt-footer-bottom,
+.tavardt-footer-bottom p,
+footer > div:first-child {
+  text-align: center !important;
+  margin: 0 auto !important;
 }
 @media (max-width: 640px) {
   .tavardt-header-inner {
@@ -822,19 +858,17 @@ header.tavardt-header, header {
 </style>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
+
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MZTKGRHF" style="display:none;visibility:hidden" width="0"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <header class="tavardt-header">
 <div class="tavardt-header-inner">
 <a class="tavardt-brand" href="https://ag.tavardt.com/fr/" rel="noopener" target="_blank">
 <span class="tavardt-logo-text">TAVARDT<span class="tavardt-brand-dot">.</span></span>
-
 </a>
 <nav class="tavardt-nav">
 <a class="tavardt-nav-link" href="https://ag.tavardt.com/fr/" rel="noopener" target="_blank">Portail</a>
 <a class="tavardt-nav-link" href="https://tools.tavardt.com/fr/" rel="noopener" target="_blank">Outils</a>
-
 </nav>
 </div>
 </header>
@@ -887,12 +921,12 @@ header.tavardt-header, header {
 <pre id="code-sp"></pre>
 </div>
 </div>
-<!-- AEO CITABLE DEFINITION SECTION (100% WIDTH - 1200px) -->
+
 <section class="aeo-card">
 <h2>Qu'est-ce que l'Évaluateur de Robustesse LLM ?</h2>
 <p>L'Évaluateur de Robustesse LLM de TAVARDT est un outil défensif conçu pour tester la résilience des system prompts et des guardrails face aux injections directes de prompt, jailbreaks, fuites d'instructions internes et évasions structurelles. Il réalise un audit déterministe et génère des blueprints défensifs en Python et TypeScript conformes à l'OWASP Top 10 pour LLM.</p>
 </section>
-<!-- GEO TECHNICAL VECTORS SECTION (100% WIDTH - 1200px) -->
+
 <section class="vectors-section">
 <h2>Vecteurs de Risque &amp; Vulnérabilités Auditées</h2>
 <div class="vectors-grid">
@@ -914,7 +948,7 @@ header.tavardt-header, header {
 </div>
 </div>
 </section>
-<!-- AEO/GEO FAQ SECTION (100% WIDTH - EXACTLY 5 FAQS) -->
+
 <section class="faq-section">
 <h2>Foire Aux Questions (FAQ) &amp; Recommandations Techniques</h2>
 <details class="faq-item">
@@ -938,7 +972,7 @@ header.tavardt-header, header {
 <div class="faq-answer">TAVARDT conçoit des architectures défensives de pointe : guardrails sémantiques ultra-rapides, passerelles Cloudflare et audits continus.</div>
 </details>
 </section>
-<!-- DEFENSIVE HARDENING CTA -->
+
 <div class="cta-card">
 <h3>Besoin d'un Durcissement Professionnel pour vos LLMs ?</h3>
 <p>L'ingénierie TAVARDT met en place des middlewares défensifs, des séparations sémantiques strictes et une protection périmétrique Cloudflare.</p>
@@ -953,7 +987,6 @@ header.tavardt-header, header {
 <div class="tavardt-footer-col">
 <div class="tavardt-footer-logo">TAVARDT<span class="tavardt-brand-dot">.</span></div>
 <p class="tavardt-footer-mission">Nous transformons des entreprises invisibles en marques reconnues et sécurisées sur le marché numérique.</p>
-
 </div>
 <div class="tavardt-footer-col">
 <div class="tavardt-footer-heading">Navigation Régionale</div>
