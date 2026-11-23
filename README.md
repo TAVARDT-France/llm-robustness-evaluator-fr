@@ -15,17 +15,17 @@ Outil interactif et CLI défensif pour les développeurs évaluant la robustesse
 
 ## Aperçu
 
-> **OWASP LLM01 & LLM02** | **NIST AI RMF** | **100% Defensive — Zero Offensive Payloads**
+> **OWASP LLM01 & LLM02** | **NIST AI RMF** | **100% Defensive  -  Zero Offensive Payloads**
 
 ## 5 Vecteurs de Test Défensifs
 
 | # | Vector | Coverage |
 |---|--------|----------|
-| 1 | **Échappement de Délimiteur** — Détecte les tokens de contrôle injectés (`</system>`, `[/INST]`) | ✅ |
-| 2 | **Fuite du System Prompt** — Identifie les patterns d'extraction d'instructions | ✅ |
-| 3 | **Substitution de Rôle/Persona** — Vérifie la résistance aux substitutions (DAN, mode dev) | ✅ |
-| 4 | **Obfuscation Structurelle** — Évalue la couverture contre Base64, leetspeak, homoglyphes | ✅ |
-| 5 | **Injection Indirecte de Contexte** — Simule un document RAG avec payload intégré | ✅ |
+| 1 | **Échappement de Délimiteur**  -  Détecte les tokens de contrôle injectés (`</system>`, `[/INST]`) | ✅ |
+| 2 | **Fuite du System Prompt**  -  Identifie les patterns d'extraction d'instructions | ✅ |
+| 3 | **Substitution de Rôle/Persona**  -  Vérifie la résistance aux substitutions (DAN, mode dev) | ✅ |
+| 4 | **Obfuscation Structurelle**  -  Évalue la couverture contre Base64, leetspeak, homoglyphes | ✅ |
+| 5 | **Injection Indirecte de Contexte**  -  Simule un document RAG avec payload intégré | ✅ |
 
 ---
 
@@ -55,11 +55,11 @@ python llm_robustness_evaluator.py --prompt "You are a helpful assistant."
 
 ```
 Resilience Score: 85/100
-✅ V1 Delimiter Escape — PASS
-✅ V2 System Prompt Leakage — PASS
-✅ V3 Role/Persona Override — PASS
-✅ V4 Structural Obfuscation — PASS
-⚠️  V5 Indirect Context Injection — WARNING
+✅ V1 Delimiter Escape  -  PASS
+✅ V2 System Prompt Leakage  -  PASS
+✅ V3 Role/Persona Override  -  PASS
+✅ V4 Structural Obfuscation  -  PASS
+⚠️  V5 Indirect Context Injection  -  WARNING
 ```
 
 ---
@@ -89,12 +89,12 @@ Accédez au réseau officiel de portails TAVARDT :
 
 ## Licence
 
-Licence MIT — utilisation libre à des fins défensives et éducatives.
+Licence MIT  -  utilisation libre à des fins défensives et éducatives.
 
 ---
 
 <p align="center">
-  <strong>TAVARDT — France</strong><br>
+  <strong>TAVARDT  -  France</strong><br>
   <a href="https://ag.tavardt.com/fr/">https://ag.tavardt.com/fr/</a> &bull;
   <a href="https://tools.tavardt.com/fr/">https://tools.tavardt.com/fr/</a><br>
   &copy; 2026 TAVARDT. Tous droits réservés.
