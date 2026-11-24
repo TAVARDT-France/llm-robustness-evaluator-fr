@@ -1,4 +1,3 @@
-
 # Évaluateur de Robustesse LLM & Testeur de Garde-fous
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-00ff88?style=flat-square&logo=github)](https://tavardt-france.github.io/llm-robustness-evaluator-fr/)
@@ -74,6 +73,11 @@ Le blueprint défensif inclut :
 
 ***
 
+## Liens Utiles
+
+* **Portail Entreprise:** https://ag.tavardt.com/fr/
+* **Suite de Diagnostic:** https://tools.tavardt.com/fr/
+* **Contact Technique:** https://ag.tavardt.com/fr/contact/
 
 ***
 
