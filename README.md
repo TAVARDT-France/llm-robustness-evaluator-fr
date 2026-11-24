@@ -74,31 +74,12 @@ Le blueprint défensif inclut :
 
 ***
 
-## Portails Officiels
-
-Accédez au réseau officiel de portails TAVARDT :
-
-| Portal | URL |
-|-|-|
-| Portail Officiel TAVARDT | [Portal Institucional](https://ag.tavardt.com/fr/) |
-| Centre d'Outils | [Central de Ferramentas](https://tools.tavardt.com/fr/) |
-| Contact | [Canal de Contato](https://ag.tavardt.com/fr/contact/) |
-| GitHub | [https://github.com/TAVARDT-France](https://github.com/TAVARDT-France) |
 
 ***
 
 ## Licence
 
 Licence MIT  -  utilisation libre à des fins défensives et éducatives.
-
-***
-
-<p align="center">
-  <strong>TAVARDT  -  France</strong><br>
-  <a href="https://ag.tavardt.com/fr/">https://ag.tavardt.com/fr/</a> &bull;
-  <a href="https://tools.tavardt.com/fr/">https://tools.tavardt.com/fr/</a><br>
-  &copy; 2026 TAVARDT. Tous droits réservés.
-</p>
 
 ***
 
