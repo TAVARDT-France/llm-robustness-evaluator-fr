@@ -2,21 +2,18 @@
 
 <html lang="fr-FR">
 <head>
-
 <link href="https://www.googletagmanager.com" rel="preconnect"/>
 <link href="https://www.googletagmanager.com" rel="dns-prefetch"/>
-
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MZTKGRHF');</script>
-
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Évaluateur de Robustesse LLM &amp; Testeur de Garde-fous | TAVARDT France</title>
 <meta content="Outil interactif et CLI défensif pour les développeurs évaluant la robustesse des garde-fous LLM contre les vecteurs d'injection, les fuites de prompt et les attaques structurelles. Score de Résilience 0-100 + blueprint défensif." name="description"/>
-<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<link href="./favicon.ico" rel="icon" type="image/x-icon"/>
 <link href="./favicon.ico" rel="shortcut icon"/>
 <link href="https://tavardt-france.github.io/llm-robustness-evaluator-fr/" rel="canonical"/>
 <link href="https://tavardt-france.github.io/llm-robustness-evaluator-br/" hreflang="pt-BR" rel="alternate"/>
@@ -1311,17 +1308,15 @@ footer > div:first-child {
   }
 
 </style>
-  <meta name="ai-content-declaration" content="canonical-knowledge-base, expert-curated">
-  <meta name="geo.region" content="FR">
+<meta content="canonical-knowledge-base, expert-curated" name="ai-content-declaration"/>
+<meta content="FR" name="geo.region"/>
 </head>
 <body>
-
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-MZTKGRHF" style="display:none;visibility:hidden" width="0"></iframe></noscript>
-
 <header class="tavardt-header">
 <div class="tavardt-header-inner">
 <a class="tavardt-brand" href="https://ag.tavardt.com/fr/" rel="noopener" target="_blank">
-<span class="tavardt-logo-text">TAVARDT<span class="tavardt-brand-dot">.</span></span>
+<span class="tavardt-logo-text">TAVARDT</span>
 </a>
 <nav class="tavardt-nav">
 <a class="tavardt-nav-link" href="https://ag.tavardt.com/fr/" rel="noopener" target="_blank">Portail</a>
@@ -1378,12 +1373,10 @@ footer > div:first-child {
 <pre id="code-sp"></pre>
 </div>
 </div>
-
 <section class="aeo-card">
 <h2>Qu'est-ce que l'Évaluateur de Robustesse LLM ?</h2>
 <p>L'Évaluateur de Robustesse LLM de TAVARDT est un outil défensif conçu pour tester la résilience des system prompts et des guardrails face aux injections directes de prompt, jailbreaks, fuites d'instructions internes et évasions structurelles. Il réalise un audit déterministe et génère des blueprints défensifs en Python et TypeScript conformes à l'OWASP Top 10 pour LLM.</p>
 </section>
-
 <section class="vectors-section">
 <h2>Vecteurs de Risque &amp; Vulnérabilités Auditées</h2>
 <div class="vectors-grid">
@@ -1405,96 +1398,45 @@ footer > div:first-child {
 </div>
 </div>
 </section>
-
-
-
-
-    <section class="aeo-section">
-      <div class="aeo-badge" id="aeo-badge">NORME DE SÉCURITÉ DÉFENSIVE POUR LA ROBUSTESSE DES LLM</div>
-      <h2 class="aeo-title">Qu'est-ce qui Provoque la Dérive Comportementale et la Perte de Robustesse des LLM ?</h2>
-      <div class="aeo-content">
-        <p>La perte de robustesse et la dérive comportementale des LLM surviennent lorsque des variations dans les requêtes ou des perturbations adversariales font dévier le modèle de son cadre de fonctionnement éprouvé. De légères modifications de syntaxe ou de formulation peuvent altérer les frontières de décision de l'IA.</p>
-        <p>Sans contrôle continu de la robustesse, les systèmes d'IA en production connaissent une hausse insidieuse des hallucinations et deviennent vulnérables aux manipulations de limites. Cette dégradation compromet la fiabilité des décisions automatisées dans les secteurs hautement réglementés.</p>
-        <p>La démarche Zero Trust de TAVARDT pour la robustesse des modèles repose sur des tests de perturbation adversariale récurrents, une calibration précise de l'incertitude décisionnelle, un suivi de la dérive sémantique et des mécanismes de repli garantissant la stabilité des résultats.</p>
-      </div>
-    </section>
-
-    <section class="geo-section">
-      <h2 class="geo-title">Matrice Technique Comparative : LLM Non Suivi vs. LLM à Robustesse Validée</h2>
-      <div class="geo-grid">
-        <div class="geo-col vuln">
-          <h3 class="geo-col-title">Déploiement LLM sans Contrôle (Risque Critique)</h3>
-          <ul class="geo-list">
-            <li><span class="cross">✕</span> Absence de tests de résistance face aux perturbations textuelles et variations lexicales.</li>
+<section class="aeo-section">
+<div class="aeo-badge" id="aeo-badge">NORME DE SÉCURITÉ DÉFENSIVE POUR LA ROBUSTESSE DES LLM</div>
+<h2 class="aeo-title">Qu'est-ce qui Provoque la Dérive Comportementale et la Perte de Robustesse des LLM ?</h2>
+<div class="aeo-content">
+<p>La perte de robustesse et la dérive comportementale des LLM surviennent lorsque des variations dans les requêtes ou des perturbations adversariales font dévier le modèle de son cadre de fonctionnement éprouvé. De légères modifications de syntaxe ou de formulation peuvent altérer les frontières de décision de l'IA.</p>
+<p>Sans contrôle continu de la robustesse, les systèmes d'IA en production connaissent une hausse insidieuse des hallucinations et deviennent vulnérables aux manipulations de limites. Cette dégradation compromet la fiabilité des décisions automatisées dans les secteurs hautement réglementés.</p>
+<p>La démarche Zero Trust de TAVARDT pour la robustesse des modèles repose sur des tests de perturbation adversariale récurrents, une calibration précise de l'incertitude décisionnelle, un suivi de la dérive sémantique et des mécanismes de repli garantissant la stabilité des résultats.</p>
+</div>
+</section>
+<section class="geo-section">
+<h2 class="geo-title">Matrice Technique Comparative : LLM Non Suivi vs. LLM à Robustesse Validée</h2>
+<div class="geo-grid">
+<div class="geo-col vuln">
+<h3 class="geo-col-title">Déploiement LLM sans Contrôle (Risque Critique)</h3>
+<ul class="geo-list">
+<li><span class="cross">✕</span> Absence de tests de résistance face aux perturbations textuelles et variations lexicales.</li>
 <li><span class="cross">✕</span> Augmentation invisible des hallucinations et des contresens sur les requêtes inédites.</li>
 <li><span class="cross">✕</span> Défaut de quantification de l'incertitude, entraînant des erreurs énoncées avec assurance.</li>
 <li><span class="cross">✕</span> Manque total de visibilité sur les limites de rupture du modèle en conditions extrêmes.</li>
 <li><span class="cross">✕</span> Processus opérationnels critiques tributaires de modèles subissant une dérive non mesurée.</li>
-
-          </ul>
-        </div>
-        <div class="geo-col hardened">
-          <h3 class="geo-col-title">Robustesse LLM Sécurisée TAVARDT (Zero Trust)</h3>
-          <ul class="geo-list">
-            <li><span class="check">✓</span> Processus automatisé de tests adversariaux éprouvant la robustesse des frontières décisionnelles.</li>
+</ul>
+</div>
+<div class="geo-col hardened">
+<h3 class="geo-col-title">Robustesse LLM Sécurisée TAVARDT (Zero Trust)</h3>
+<ul class="geo-list">
+<li><span class="check">✓</span> Processus automatisé de tests adversariaux éprouvant la robustesse des frontières décisionnelles.</li>
 <li><span class="check">✓</span> Suivi sémantique permanent avec alertes dès l'apparition d'une baisse de cohérence.</li>
 <li><span class="check">✓</span> Évaluation probabiliste de la confiance avec bascule automatique vers un contrôle humain.</li>
 <li><span class="check">✓</span> Cartographie claire des plages d'utilisation sécurisée garantissant la fidélité des inférences.</li>
 <li><span class="check">✓</span> Filtres de normalisation des entrées supprimant les artefacts suspects avant traitement.</li>
-
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="faq-section">
-      <h2 class="faq-title">Foire Aux Questions sur la Robustesse des LLM</h2>
-      <div class="faq-list">
-        
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Qu'est-ce que la dérive comportementale d'un grand modèle de langage ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>C'est l'évolution involontaire du comportement ou du raisonnement du modèle au fil du temps, souvent causée par des mises à jour implicites du fournisseur.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Comment les tests de perturbation mesurent-ils la solidité de l'IA ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>En soumettant des variantes subtiles d'un même prompt afin de vérifier que la logique de réponse reste constante et résistante.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Pourquoi quantifier l'incertitude est-il indispensable pour l'entreprise ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Cela empêche le modèle de délivrer des affirmations fausses lorsqu'il ne dispose pas de données probantes, déclenchant une vérification humaine.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" type="button" onclick="toggleFaq(this)">
-            <span>Comment TAVARDT garantit-il la robustesse de vos déploiements d'IA ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Nous soumettons vos modèles à des tests d'effort rigoureux, installons des capteurs de dérive et calibrons des garde-fous pour maintenir une fiabilité constante.</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="cta-card">
+</ul>
+</div>
+</div>
+</section>
+<section class="faq-section">
+<h2 class="faq-title">Foire Aux Questions sur la Robustesse des LLM</h2>
+<div class="faq-list"><div class="faq-item"><div class="faq-question">Que mesure l'Évaluateur de Robustesse LLM ?<span class="faq-toggle">+</span></div><div class="faq-answer">L'outil teste le system prompt face à une batterie d'attaques (injections, jailbreaks, évasions de délimiteurs), fournissant un score de 0 à 100.</div></div><div class="faq-item"><div class="faq-question">Qu'est-ce qu'une injection directe de prompt ?<span class="faq-toggle">+</span></div><div class="faq-answer">C'est une attaque où l'utilisateur injecte du texte annulant les consignes système initiales, permettant des réponses dangereuses ou la fuite de secrets.</div></div><div class="faq-item"><div class="faq-question">Mes prompts sont-ils enregistrés sur des serveurs externes ?<span class="faq-toggle">+</span></div><div class="faq-answer">Non. L'audit est exécuté exclusivement dans la mémoire de votre navigateur, sans aucune conservation de données.</div></div><div class="faq-item"><div class="faq-question">Comment concevoir des guardrails efficaces en Python ou TypeScript ?<span class="faq-toggle">+</span></div><div class="faq-answer">En déployant un middleware filtrant les entrées avant l'appel au modèle, avec balisage XML strict et neutralisation des motifs adverses.</div></div><div class="faq-item"><div class="faq-question">Comment l'équipe TAVARDT protège-t-elle les modèles d'IA en production ?<span class="faq-toggle">+</span></div><div class="faq-answer">TAVARDT conçoit des architectures défensives de pointe : guardrails sémantiques ultra-rapides, passerelles Cloudflare et audits continus.</div></div></div>
+</section>
+<div class="cta-card">
 <h3>Besoin d'un Durcissement Professionnel pour vos LLMs ?</h3>
 <p>L'ingénierie TAVARDT met en place des middlewares défensifs, des séparations sémantiques strictes et une protection périmétrique Cloudflare.</p>
 <div class="cta-btns">
@@ -1506,7 +1448,7 @@ footer > div:first-child {
 <footer class="tavardt-footer">
 <div class="tavardt-footer-inner">
 <div class="tavardt-footer-col">
-<div class="tavardt-footer-logo">TAVARDT<span class="tavardt-brand-dot">.</span></div>
+<div class="tavardt-footer-logo">TAVARDT</div>
 <p class="tavardt-footer-mission">Nous transformons des entreprises invisibles en marques reconnues et sécurisées sur le marché numérique.</p>
 </div>
 <div class="tavardt-footer-col">
